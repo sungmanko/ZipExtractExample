@@ -19,9 +19,12 @@ namespace ZipExtractExample
         /// <param name="e"></param>
         private void btnTarget2_Click(object sender, EventArgs e)
         {
+            // ファイルパス取得
             string zipPath = txtTarget1.Text;
+            // 解凍先パス取得
             string extractPath = txtTarget2.Text;
 
+            // 解凍処理
             ExtractZipFile(zipPath, extractPath);
         }
 
@@ -35,6 +38,7 @@ namespace ZipExtractExample
             // ファイル存在確認
             if (!File.Exists(zipPath))
             {
+                // ファイルが存在しない場合は処理を抜ける
                 return;
             }
 

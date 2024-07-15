@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sample\\ZipExtractExample-git\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1803F07-0302-4C37-A02D-40848F693687}|ZipExtractExample\\ZipExtractExample.csproj|c:\\sample\\zipextractexample-git\\zipextractexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E1803F07-0302-4C37-A02D-40848F693687}|ZipExtractExample\\ZipExtractExample.csproj|solutionrelative:zipextractexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1803F07-0302-4C37-A02D-40848F693687}|ZipExtractExample\\ZipExtractExample.csproj|c:\\sample\\zipextractexample-git\\zipextractexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1803F07-0302-4C37-A02D-40848F693687}|ZipExtractExample\\ZipExtractExample.csproj|solutionrelative:zipextractexample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Sample\\ZipExtractExample-git\\ZipExtractExample\\Form1.cs",
+              "RelativeDocumentMoniker": "ZipExtractExample\\Form1.cs",
+              "ToolTip": "C:\\Sample\\ZipExtractExample-git\\ZipExtractExample\\Form1.cs",
+              "RelativeToolTip": "ZipExtractExample\\Form1.cs",
+              "ViewState": "AQIAAAMAAACAZmZmZuYpwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:39:53.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Sample\\ZipExtractExample-git\\ZipExtractExample\\Form1.cs",
+              "RelativeDocumentMoniker": "ZipExtractExample\\Form1.cs",
+              "ToolTip": "C:\\Sample\\ZipExtractExample-git\\ZipExtractExample\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "ZipExtractExample\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T00:39:43.621Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

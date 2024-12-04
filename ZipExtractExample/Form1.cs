@@ -31,25 +31,33 @@ namespace ZipExtractExample
         /// <summary>
         /// 解凍処理
         /// </summary>
-        /// <param name="zipPath"></param>
-        /// <param name="extractPath"></param>
+        /// <param name="zipPath">ZIPファイルのパス</param>
+        /// <param name="extractPath">解凍先のパス</param>
         public static void ExtractZipFile(string zipPath, string extractPath)
         {
             // ファイル存在確認
             if (!File.Exists(zipPath))
             {
-                // ファイルが存在しない場合は処理を抜ける
+                MessageBox.Show("指定されたZIPファイルが存在しません。", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             try
             {
+                // 解凍先ディレクトリが存在しない場合は作成
+                if (!Directory.Exists(extractPath))
+                {
+                    Directory.CreateDirectory(extractPath);
+                }
+
                 // 指定されたところに解凍
                 ZipFile.ExtractToDirectory(zipPath, extractPath);
+                MessageBox.Show("解凍が完了しました。", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                // 例外
+                // 例外発生時にエラーメッセージを表示
+                MessageBox.Show($"解凍中にエラーが発生しました: {ex.Message}", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
